@@ -19,7 +19,7 @@ function App() {
       <h1 className="font-mono text-2xl font-bold text-gray-800 mb-4 text-center">Github Repositories Explorer</h1>
       <form className="mb-2 flex flex-col gap-2 md:flex-row" onSubmit={handleSubmit}>
         <input className="border p-2 rounded bg-gray-100 w-72 md:w-11/12" type="text" placeholder="Enter username..." ref={searchInputRef} />
-        <input className="border p-2 cursor-pointer rounded text-white bg-sky-600" type="submit" value="Search" />
+        <input className="border p-2 cursor-pointer rounded text-white bg-sky-600 hover:bg-sky-700" type="submit" value="Search" />
       </form>
       {query && <p className="mb-2 text-sm">Showing users for "<span className="font-medium">{query}</span>"</p>}
       <div>

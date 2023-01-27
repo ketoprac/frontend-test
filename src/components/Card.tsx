@@ -7,7 +7,7 @@ const Card = (props: any) => {
     <div className="bg-gray-100 hover:bg-gray-200 cursor-pointer flex items-start justify-between py-3 px-2 min-h-24 w-72 rounded">
       <div className="overflow-hidden w-10/12">
         <p className="text-lg font-medium">{repoTitle}</p>
-        <p className="text-sm text-clip">
+        <p className="text-sm text-clip text-gray-800">
           {repoDesc}
         </p>
       </div>
