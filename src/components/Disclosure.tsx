@@ -23,7 +23,7 @@ const Disclosure = (props: any) => {
         />
       </div>
       {expand && (
-        <div className="flex md:flex-col gap-1">
+        <div className="flex flex-col gap-1">
           {error ? (
             <p>Error</p>
           ) : isLoading ? (
